@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- usemap="#favorites" -> map name="favorites" 매칭됨 -->
+    <img src="images/kids.jpg" usemap="#favorites">
+    <map name="favorites">
+        <!-- area: 이미지 영역을 정함 -->
+        <!-- shape 속성: 모양을 정함 -->
+        <!-- 하나의 이미지로 영역을 나누어서 2개의 사이트로 이동 -->
+        <!-- coords="10,10,160,200" -> x,y 좌표 (10,10), (160,200) 를 꼭지점 -->
+        <area shape="rect" coords="10,10,160,200" 
+            href="https://section.cafe.naver.com" target="_blank">
+        <area shape="rect" coords="220,10,380,200" 
+            href="https://www.facebook.com" target="_blank">
+    </map>
+</body>
+</html>

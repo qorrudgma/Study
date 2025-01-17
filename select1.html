@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>여름방학 특강 신청</h1>
+    <form>
+        <fieldset>
+            <legend>신청자</legend>
+            <ul>
+                <li>
+                    이름
+                    <!-- autofocus: 자동으로 위치 시킨다. -->
+                    <!-- required: 필수값 -->
+                    <input type="text" autofocus required>
+                </li>
+                <li>
+                    학번
+                    <input type="text" placeholder=" - 제외하고 입력" maxlength="8">
+                </li>
+                <li>
+                    학과
+                    <!-- select 박스, 드롭다운리스트, 콤보박스 -->
+                    <select size="3" multiple>
+                        <option value="archi">건축공학과</option>
+                        <option value="mechanic">기계공학과</option>
+                        <option value="indust">산업공학과</option>
+                        <option value="elect">전기전자공학과</option>
+                        <!-- 초기값 설정 -->
+                        <option value="computer" selected>컴퓨터공학과</option>
+                        <option value="chemical">화학공학과</option>
+                    </select>
+                </li>
+            </ul>
+        </fieldset>
+</body>
+</html>

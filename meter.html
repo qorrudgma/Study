@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <ul>
+            <li>
+                점유율 0.8<br>
+                <meter value="0.8"></meter>
+            </li>
+            <li>
+                사용량 64%<br>
+                <meter value="64" max="100"></meter>
+            </li>
+            <li>
+                트래픽 초과<br>
+                <!-- high값 초과시 색상 변화 -->
+                <!-- <meter value="9816" max="10240" high="9300"></meter> -->
+
+                <!-- min보다 작은 값일 경우 출력안됌 -->
+                <!-- <meter value="1000" min="1024" max="10240" high="9300"></meter> -->
+                
+                <!-- low보다 작은 값일 경우 생상 변화 -->
+                <!-- <meter value="2000" min="1024" max="10240" low="2048" high="9300"></meter> -->
+                 
+                <meter value="2000" min="1024" max="10240" low="2048" high="9300"></meter>
+            </li>
+        </ul>
+    </form>
+</body>
+</html>

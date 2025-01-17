@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- method="post": 통신 방식으로 post -->
+    <!-- action="serch.jsp": 해당 문서로 이동 -->
+    <form method="post" action="serch.jsp">
+        <!-- input: 특징 UI 항목을 만들때 사용 -->
+        <!-- type="text": 텍스트 박스 -->
+        <input type="text">
+
+        <!-- type="submit" -> 서버로 전송되는 버튼 -->
+        <!-- value="검색": value를 이용해 원하는 걸로 바꿀수있다. -->
+        <input type="submit" value="검색">
+
+        <!-- type="button": 기본 이동이없는 버튼 -->
+        <input type="button" value="검색">
+
+        <!-- type="reset": 내용을 초기화 하는 버튼 -->
+        <input type="reset" value="초기화">
+    </form>
+</body>
+</html>

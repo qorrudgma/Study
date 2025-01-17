@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>수강분야(다수 선택 가능)</h3>
+        <ul>
+            <!-- name: 화면에 뜨지않고 서버로 전송되는 값을 말함 -->
+            <input type="checkbox" name="grm">문법<br>
+            <input type="checkbox" name="wr">작문<br>
+            
+            <!-- label: 글자 클릭시 체크박스가 작동됨 -->
+            <label>
+                <input type="checkbox" name="rd">독해<br>
+            </label>
+        </ul>
+        
+        <h3>수강분야(한과목 선택 가능)</h3>
+        <ul>
+            <!-- 라디오버튼은 name의 속성값이 같아야한다. -->
+            <input type="radio" name="subject">영어회화<br>
+            <input type="radio" name="subject">중국어회화<br>
+            <input type="radio" name="subject">일본어회화<br>
+        </ul>
+    </form>
+</body>
+</html>

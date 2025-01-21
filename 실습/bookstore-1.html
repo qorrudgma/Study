@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 헤더부분 -->
+    <header>
+        <h1>온라인 서점</h1>
+    </header>
+    <!-- 로그인 부분 -->
+    <section id="login">
+        <form id="loginForm">
+            <label for="login-id">아이디</label>
+            <input type="text" id="login-id" placeholder="아이디를 입력하세요" required>
+            <label for="login-pw">비밀번호</label>
+            <input type="password" id="login-pw" placeholder="비밀번호를 입력하세요" required>
+            <button type="submit">로그인</button>
+        </form>
+    </section>
+     <!-- 회원 정보 부분 -->
+     <section id="user">
+        <h3>회원정보</h3>
+        <form id="userForm">
+            <label for="user-name">이름</label>
+            <input type="text" placeholder="이름을 입력하세요" id="user-name" required>
+            <label for="user-email">이메일</label>
+            <input type="text" placeholder="이메일을 입력하세요" id="user-email" required>
+            <label for="user-tell">전화번호</label>
+            <input type="text" placeholder="전화번호를 입력하세요" id="user-tell" required>
+            <button type="submit">정보수정</button>
+        </form>
+    </section>
+    <!-- 도서 등록 부분 -->
+    <section id="book">
+        <h3>도서 등록</h3>
+        <form id="bookForm">
+            <label for="book-name">도서 제목</label>
+            <input type="text" placeholder="도서 제목을 입력하세요" id="book-name" required>
+            <label for="book-type">저자</label>
+            <input type="text" placeholder="저자를 입력하세요" id="book-type" required>
+            <label for="book-ISBN">ISBN</label>
+            <input type="text" placeholder="ISBN를 입력하세요" id="book-ISBN" required>
+            <button type="submit">도서 등록</button>
+        </form>
+    </section>
+    <!-- 바닥부분 -->
+    <footer>
+        <p>&copy; 2025 온라인 서점</p>
+    </footer>
+</body>
+</html>

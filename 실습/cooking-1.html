@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* button{
+            background-color: #ffb2b2;
+            border: 0px;
+            border-radius: 7px;
+            color: ;
+        }
+        button:hover{
+            box-shadow: 1px 1px 5px gray;
+        } */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>요리 정보</h1>
+    </header>
+    <!-- 로그인 -->
+    <h3>로그인</h3>
+    <form id="loginForm">
+        <label for="login-id">아이디</label> 
+        <input type="text" id="login-id" placeholder="아이디를 입력하세요" required>
+        <label for="login-pw">비밀번호</label> 
+        <input type="password" id="login-pw" placeholder="비밀번호를 입력하세요" required>
+        <button type="submit">로그인</button>
+    </form>
+    <!-- 회원정보 -->
+    <h3>회원정보</h3>
+    <form id="userForm">
+        <label for="user-name">이름</label> 
+        <input type="text" id="user-name" placeholder="이름를 입력하세요" required>
+        <label for="user-email">이메일</label> 
+        <input type="text" id="user-email" placeholder="이메일을 입력하세요" required>
+        <label for="user-tell">전화번호</label> 
+        <input type="text" id="user-tell" placeholder="전화번호를 입력하세요" required>
+        <button type="submit">정보수정</button>
+    </form>
+    <!-- 요리등록 -->
+    <h3>요리 등록 및 수정</h3>
+    <form id="cookingForm">
+        <label for="cooking-name">요리이름</label> 
+        <input type="text" id="cooking-name" placeholder="요리 이름를 입력하세요" required>
+        <label for="cooking-ingred">재료</label> 
+        <textarea id="cooking-ingred" placeholder="재료를 입력하세요" rows="5px" required></textarea>
+        <label for="cooking-how">조리방법</label> 
+        <textarea id="cooking-how" placeholder="조리 방법을 입력하세요" rows="5px" required></textarea>
+        <button type="submit">요리 등록</button>
+    </form>
+
+    <footer>
+        &copy; 2025 요리 정보 제공 웹사이트
+    </footer>
+</body>
+</html>
